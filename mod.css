@@ -6,7 +6,7 @@ nav li:hover {
   background-color: rgb(0, 113, 188);
 }
 .item img {
-  background-color: blue;
+  /* background-color: blue; */
   height: 90vh;
 }
 .textoverlay {
@@ -17,7 +17,7 @@ nav li:hover {
   background-color: rgba(29, 86, 107, 0.5);
   font-size: large;
   width: 40%;
-  height: 13%;
+  height: 15%;
   padding-left: 2vw;
   padding-top: 0.5vw;
 }
@@ -118,17 +118,19 @@ ul li .nav-link:active {
 .tab2 {
   border: 0.1vw solid #0071ba;
   border-right: 1vw solid #0071ba;
+  height: 10vh;
 }
 .newstab {
   width: 0vw !important;
   border-radius: unset;
 }
 .newstab2 {
-  width: 5vw !important;
+  /* width: 5vw !important; */
+  background-color: #0071ba;
 }
 
 .fontnews {
-  font-size: larger;
+  color: white;
 }
 .fontnews2 {
   /* margin-left: vw; */
@@ -136,7 +138,6 @@ ul li .nav-link:active {
   font-weight: 500;
   margin-top: 0.3vw;
   text-align: left;
-  margin-left: -10vw;
 }
 
 .newsline {
@@ -189,4 +190,32 @@ input[type="email"]::placeholder {
 }
 .readless:hover {
   color: blue;
+}
+
+.mb10vh {
+  margin-bottom: 10vh !important;
+}
+
+.brandlogo {
+  position: absolute;
+  left: 10vw;
+  top: 0;
+}
+.brandlogo img {
+  height: 4vw;
+  width: 8vw;
+}
+/* body,
+html {
+  padding: 0;
+  margin: 0;
+} */
+
+/* .owl-dots span:active {
+  background-color: #fcd44d !important;
+} */
+
+.owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #fcd44d !important;
 }
